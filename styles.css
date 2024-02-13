@@ -1,0 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Varela+Round&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+body{
+    background-color: antiquewhite;
+}
+nav{
+    font-family: "Open Sans",sans-serif;
+    
+
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    background-color: black;
+    height: 45px;
+    color: white;
+    align-items:center;
+ 
+    
+}
+.brand img{
+    width: 45px;
+    padding: 0 8px;
+   
+}
+.brand{
+    display: flex;
+    align-items: center;
+ 
+ 
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+nav ul li{
+    padding: 0 12px;
+}
+
+
+nav ul li:hover{
+  cursor: pointer;
+}
+
+.container{
+    min-height: 70vh;
+    background-color: black;
+    color: white;
+    font-family:"Open Sans","Varela Round" ;
+    display: flex;
+    width: 70%;
+    margin: 23px auto;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url(./assets/background.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.bottom{
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    bottom: 0;
+}
+#myProgressbar{
+    width: 80vw;
+}
+
+.icon{
+    margin-top: 15px;
+  
+}
+.icon i{
+    padding: 5px;
+    cursor: pointer;
+}
