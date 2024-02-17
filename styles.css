@@ -85,3 +85,44 @@ nav ul li:hover{
     padding: 5px;
     cursor: pointer;
 }
+.songItem{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content:space-between;
+    background-color: white;
+    color: black;
+    width: 80%;
+    margin: 12px ;
+    border-radius: 34px;
+
+}
+.songItem img{
+   width: 35px;
+   height: 35px;
+   margin: 0 23px;
+   border-radius: 50%;
+}
+.timestamp{
+    align-items: center;
+    display: flex;
+    margin: 0 23px;
+    gap:10px;
+ 
+
+}
+.timestamp i{
+    cursor: pointer;
+}
+.songItemContainer{
+    margin-top: 74px;
+}
+.songInfo{
+    position: absolute;
+    left: 10vw;
+}
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+   
+}
